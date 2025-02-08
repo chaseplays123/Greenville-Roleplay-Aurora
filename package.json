@@ -1,6 +1,5 @@
 {
   "dependencies": {
-    "discord.js": "^14.17.3",
-    "dotenv": "^16.4.7"
+    "discord.js": "^14.17.3"
   }
 }
