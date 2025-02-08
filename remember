@@ -1,0 +1,41 @@
+remember to run node deploy-commands.js when you create a new command
+
+
+node deploy-commands.js
+
+
+When you do embeds
+
+add this to the top of the file
+
+const { EmbedBuilder } = require('discord.js');
+
+
+When you create a new file for a command, please add this to the top of the file also
+
+const { SlashCommandBuilder } = require('discord.js');
+
+
+If you want a message sent to the channel, please use this
+
+channel = interaction.channel;
+
+
+If you want the message to be hidden. please use this
+
+ephemeral: true
+
+to make buttons use these at the top so you can build your buttons into your message
+
+const { ButtonBuilder } = require('discord.js');
+
+const { ButtonStyle } = require('discord.js');
+
+
+If you want a message sent to a certain channel Please use this
+
+certainchannel = interaction.guild.channels.cache.get('')
+
+When you're creating a event, please use this
+
+const { Events, EmbedBuilder } = require('discord.js');
